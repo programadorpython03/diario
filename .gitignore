@@ -1,0 +1,43 @@
+  GNU nano 7.2                                                                              .gitignore                                                                                        
+# Python
+*.venv
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+/static/
+/media/
+/*.bak
+*.swp
+
+# Teste
+*.cover
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+*.pytest_cache/
+
+# Dependências
+venv/
+env/
+ENV/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
